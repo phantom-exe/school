@@ -1,0 +1,130 @@
+@import 'base.css';
+
+.feature-details {
+    background-color: var(--card-bg-color);
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-details h1 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.feature-details p {
+    margin-bottom: 1.5rem;
+}
+
+.feature-details ul {
+    list-style-type: none;
+    margin-bottom: 2rem;
+}
+
+.feature-details li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.feature-details li::before {
+    content: "\2022";
+    color: var(--primary-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.teacher-dashboard {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.dashboard-card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.dashboard-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.dashboard-card p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.class-list {
+    margin-top: 2rem;
+}
+
+.class-item {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class-info h3 {
+    margin: 0;
+    color: var(--primary-color);
+}
+
+.class-info p {
+    margin: 0.5rem 0 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.class-action {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.class-action button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.class-action button:hover {
+    opacity: 0.8;
+}
+
+.view-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.edit-btn {
+    background-color: var(--secondary-color);
+    color: #fff;
+}

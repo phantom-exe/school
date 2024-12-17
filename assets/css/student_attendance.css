@@ -1,0 +1,149 @@
+/* Calendar Styles */
+.attendance-calendar {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+.calendar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.calendar-nav button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #3498db;
+    padding: 5px 10px;
+}
+
+.calendar-nav h3 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.calendar-header {
+    text-align: center;
+    font-weight: bold;
+    color: #7f8c8d;
+    padding: 10px;
+}
+
+.calendar-day {
+    aspect-ratio: 1;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    background: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.calendar-day.empty {
+    background: none;
+}
+
+.calendar-day.today {
+    background: #e3f2fd;
+    font-weight: bold;
+}
+
+.calendar-day .day-number {
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+}
+
+.calendar-day .status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+.calendar-day .status-dot.present {
+    background: #2ecc71;
+}
+
+.calendar-day .status-dot.absent {
+    background: #e74c3c;
+}
+
+.calendar-day .status-dot.late {
+    background: #f39c12;
+}
+
+.calendar-day.present {
+    border: 1px solid #2ecc71;
+}
+
+.calendar-day.absent {
+    border: 1px solid #e74c3c;
+}
+
+.calendar-day.late {
+    border: 1px solid #f39c12;
+}
+
+/* Responsive Calendar */
+@media (max-width: 768px) {
+    .calendar-day {
+        font-size: 0.8rem;
+    }
+    
+    .calendar-header {
+        font-size: 0.8rem;
+    }
+} 
+
+/* Attendance page specific styles */
+.attendance-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.stat-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.attendance-records {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.attendance-records table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.attendance-records th,
+.attendance-records td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Add more attendance styles */

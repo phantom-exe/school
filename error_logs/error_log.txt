@@ -1,0 +1,113 @@
+[2024-11-26 19:52:54] CUSTOM ERROR: Login attempt
+Context: Array
+(
+    [username] => diablo
+    [password] => diablo
+    [userType] => student
+)
+
+--------------------
+[2024-11-26 19:52:54] CUSTOM ERROR: Login successful
+Context: Array
+(
+    [username] => diablo
+)
+
+--------------------
+[2024-11-26 19:53:05] CUSTOM ERROR: Login attempt
+Context: Array
+(
+    [username] => diablo
+    [password] => diablo
+    [userType] => student
+)
+
+--------------------
+[2024-11-26 19:53:05] CUSTOM ERROR: Login successful
+Context: Array
+(
+    [username] => diablo
+)
+
+--------------------
+[2024-11-26 19:53:12] CUSTOM ERROR: Login attempt
+Context: Array
+(
+    [username] => test_student
+    [password] => ddd
+    [userType] => student
+)
+
+--------------------
+[2024-11-26 19:53:12] CUSTOM ERROR: User not found
+Context: Array
+(
+    [username] => test_student
+    [userType] => student
+)
+
+--------------------
+[2024-11-26 19:53:22] CUSTOM ERROR: Login attempt
+Context: Array
+(
+    [username] => diablo
+    [password] => sss
+    [userType] => student
+)
+
+--------------------
+[2024-11-26 19:53:22] CUSTOM ERROR: Invalid password
+Context: Array
+(
+    [username] => diablo
+)
+
+--------------------
+[2024-11-26 19:56:54] CUSTOM ERROR: Login attempt
+Context: Array
+(
+    [username] => diablo
+    [password] => sss
+    [userType] => student
+)
+
+--------------------
+[2024-11-26 19:56:54] CUSTOM ERROR: Invalid password
+Context: Array
+(
+    [username] => diablo
+)
+
+--------------------
+[2024-11-26 19:56:58] CUSTOM ERROR: Login attempt
+Context: Array
+(
+    [username] => diablo
+    [password] => diablo
+    [userType] => student
+)
+
+--------------------
+[2024-11-26 19:56:58] CUSTOM ERROR: Login successful
+Context: Array
+(
+    [username] => diablo
+)
+
+--------------------
+[2024-11-26 19:57:27] CUSTOM ERROR: Login attempt
+Context: Array
+(
+    [username] => diablo
+    [password] => diablo
+    [userType] => student
+)
+
+--------------------
+[2024-11-26 19:57:27] CUSTOM ERROR: Login successful
+Context: Array
+(
+    [username] => diablo
+)
+
+--------------------

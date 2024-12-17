@@ -1,0 +1,85 @@
+@import 'base.css';
+
+.feature-details {
+    background-color: var(--card-bg-color);
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-details h1 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.feature-details p {
+    margin-bottom: 1.5rem;
+}
+
+.feature-details ul {
+    list-style-type: none;
+    margin-bottom: 2rem;
+}
+
+.feature-details li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.feature-details li::before {
+    content: "\2022";
+    color: var(--primary-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.fee-summary {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color:  #f0f0f0;
+    border-radius: 10px;
+}
+
+.fee-summary h2 {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.fee-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.fee-table th, .fee-table td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.fee-table th {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.fee-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
